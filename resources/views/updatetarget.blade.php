@@ -6,7 +6,7 @@
 <p></p>
     <div class="panel panel-info">
         <div class="panel-heading">
-           <span class="glyphicon glyphicon-stats"></span>&nbspEdit Target
+           <span class="glyphicon glyphicon-stats"></span>&nbspUbah Target
            @if(Session::has('message'))
            <span class="label label-danger">{{Session::get('message')}}</span>
            @endif
